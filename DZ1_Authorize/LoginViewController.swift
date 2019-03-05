@@ -117,8 +117,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         let hvc = unwindSegue.source as! HomeViewController
         photoImageView.image = hvc.image
         
-        
-        
     }
     
     

@@ -14,21 +14,13 @@ class HomeViewController: UIViewController {
     var text = ""
     var image = UIImage()
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         label.text = text
     }
     
     @IBAction func goToAction(_ sender: UIButton) {
-        
         image = UIImage(named: "photo")!;
-        
     }
     
 }
